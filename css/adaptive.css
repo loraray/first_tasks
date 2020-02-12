@@ -1,0 +1,224 @@
+@media (max-width:768px) {
+    #home{
+        padding: 250px 0 350px 0;
+    }
+       .title{ font-style: normal;
+           font-weight: bold;
+           font-size: 40px;
+           line-height: 60px;
+           padding-bottom: 25px;}
+    .some__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 5px 0;
+    }
+    .information .btn{
+        position: relative;
+        font-size: 16px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: rgba(253, 180, 97, 0.82)
+    }
+    .information .btn:before{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        width: 150px;
+        height: 2px;
+        background: rgba(253, 180, 97, 0.82);
+
+    }
+    #adoption__container{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        padding-bottom: 80px;
+    }
+    #volunteer{
+        display: grid;
+        grid-template-columns:50% 50%;
+        padding-bottom: 100px ;
+    }#black{
+         background-color: #000;
+         height: 250px;
+     }
+    .testimony {
+        /*display: grid;*/
+        /*grid-template-columns: 100%;*/
+        padding-top: 100px;
+        max-width: 631px;
+    }
+    .testimony .testimony__img{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+    .testimony .testimony__img img{
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    .testimony p{
+        font-size: 12px;
+        line-height: 27px;
+        color: rgba(255, 255, 255, 0.9);
+        padding-bottom: 12px;
+    }
+    .testimony .author{
+        font-size: 12px;
+        line-height: 27px;
+        color: rgba(255, 255, 255, 0.6)
+    }
+    .nav_menu{
+        display: none;
+    }
+    .burger__line__box{
+        display: block;
+    }
+
+}
+@media (max-width:481px) {
+    #home{
+        padding: 200px 0 300px 0;
+    }
+    .title{ font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 40px;
+        padding-bottom: 15px;}
+    .some__text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 5px 0;
+    }
+    .information .btn{
+        position: relative;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: rgba(253, 180, 97, 0.82)
+    }
+    .information .btn:before{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        width: 120px;
+        height: 2px;
+        background: rgba(253, 180, 97, 0.82);
+
+    }
+    #adoption__container{
+        display: grid;
+        grid-template-columns:100%;
+        padding-bottom: 70px;
+    }
+    #volunteer{
+        display: grid;
+        grid-template-columns: 100%;
+        padding-bottom: 80px ;
+    }
+    #black{
+        background-color: #000;
+        height: 150px;
+    }
+    .testimony {
+        /*display: grid;*/
+        /*grid-template-columns:100%;*/
+        padding-top: 60px;
+        max-width: 631px;
+    }
+    .testimony__img{
+        width: 50px;
+        height: 50px;
+    }
+    .testimony .testimony__img img{
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    .testimony p{
+        font-size: 10px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.9);
+        padding-bottom: 8px;
+    }
+    .testimony .author{
+        font-size: 10px;
+        line-height: 20px;
+        color: rgba(255, 255, 255, 0.6)
+    }
+}
+@media (max-width:320px) {
+    #home{
+        padding: 250px 0 250px 0;
+
+    }
+    .title{ font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+    .information .some__text{
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 12px;
+        padding: 5px 0;
+    }
+    .information .btn{
+        position: relative;
+        font-size: 9px;
+        line-height: 15px;
+        text-transform: uppercase;
+        color: rgba(253, 180, 97, 0.82)
+    }
+    .information .btn:before{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        width: 100px;
+        height: 2px;
+        background: rgba(253, 180, 97, 0.82);
+    }
+    #adoption__container{
+        display: grid;
+        grid-template-columns:100%;
+        padding-bottom: 55px;
+    }
+    #volunteer{
+        display: grid;
+        grid-template-columns:100%;
+        padding-bottom: 60px ;
+    }
+    #black{
+        background-color: #000;
+        height: 60px;
+    }
+    .testimony {
+        /*display: grid;*/
+        /*grid-template-columns:100%;*/
+        padding-top: 30px;
+        max-width: 631px;
+    }
+    .testimony__img{
+        width: 40px;
+        height: 40px;
+    }
+    .testimony .testimony__img img{
+        max-width: 100%;
+        border-radius: 50%;
+    }
+    .testimony p{
+        font-size: 10px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.9);
+        padding-bottom: 6px;
+    }
+    .testimony .author{
+        font-size: 10px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.6)
+    }
+}
